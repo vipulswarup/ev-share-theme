@@ -162,7 +162,6 @@ function getCreateContent()
    createContentByTemplateEnabled = createContentByTemplateConfig !== null ? createContentByTemplateConfig.value.toString() == "true" : false;
 
    model.createContent = createContent.sort(sortByIndex);
-   // Raghav Bhardwaj - 25 Sep 2015 - Remove "Create Content By Template" sections
    model.createContentByTemplateEnabled = false;
 }
 
