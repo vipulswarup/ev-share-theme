@@ -1,0 +1,10 @@
+<alfresco-config>
+
+   <config evaluator="string-compare" condition="HelpPages">
+      <help-pages>
+         <share-help>https://www.eisenvault.com/company</share-help>
+         <share-tutorial>https://www.eisenvault.com/company</share-tutorial>
+      </help-pages>
+   </config>
+
+</alfresco-config>
